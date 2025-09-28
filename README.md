@@ -18,20 +18,18 @@ Para criar esta stack na sua conta AWS, siga os passos abaixo:
 1. Certifique-se de ter o AWS CLI instalado e configurado com suas credenciais.
 2. Execute o comando abaixo no terminal, dentro da pasta onde está o arquivo `template-cloudformation.yaml`:
 
-```bash
-aws cloudformation create-stack --stack-name MinhaStack --template-body file://template-cloudformation.yaml
-
 
 ## 🧱 Estrutura da Stack
-        Arquivo: template-cloudformation.yaml
-        Este template define os seguintes recursos:
 
-     ✅ Bucket S3
-      Nome: lauane-bucket-exemplo-2025-09-28
-      Permissões: Privado (Private)
+**Arquivo:** `template-cloudformation.yaml`  
+Este template define os seguintes recursos:
 
-     ✅ Output
-      Retorna o nome do bucket criado ao final da execução da stack
+- ✅ **Bucket S3**  
+  - Nome: `lauane-bucket-exemplo-2025-09-28`  
+  - Permissões: Privado (Private)
+
+- ✅ **Output**  
+  - Retorna o nome do bucket criado ao final da execução da stack
 
 ## 🎓 Aprendizados
 
